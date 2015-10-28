@@ -49,7 +49,6 @@ $(function() {
         var trackHtml = template({ tracks: trackResults });
         $results.append(trackHtml);
 
-
       // else let user know there are no results
       } else {
         $results.append('<p class="text-center">No results</p>');
